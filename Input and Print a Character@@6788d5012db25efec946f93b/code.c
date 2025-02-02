@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float character;
+    char character;
     printf("")
     scanf("%c",&character)
     printf("You entered: %c/n",character);
