@@ -12,6 +12,6 @@ int main() {
     scanf("%s",&string2);
 
 
-    printf("You entered: %s and %s\n",string1 and string2);
+    printf("You entered: %s and %s\n",string1,string2);
     return 0;
 }
