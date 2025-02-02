@@ -2,7 +2,7 @@
 
 
 int main() {
-    char word;
+    char word[5];
     printf("");
     scanf("%s",&word);
     printf("You entered:%s\n",word);
