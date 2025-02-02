@@ -5,13 +5,13 @@ char* welcome() {
 }
 
 int main() {
-    char string1[5],string2[5];
+    char str1[50],str2[50];
     printf("");
-    scanf("%s",&string1);
+    scanf("%s",&str1);
     printf("");
-    scanf("%s",&string2);
+    scanf("%s",&str2);
 
 
-    printf("You entered: %s and %s\n", string1,string2);
+    printf("You entered: %s and %s\n", str1,str2);
     return 0;
 }
