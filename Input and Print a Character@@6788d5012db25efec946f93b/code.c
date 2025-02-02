@@ -3,7 +3,7 @@
 int main() {
     float character;
     printf("")
-    scanf("%c")
+    scanf("%c",&character)
     printf("You entered: %c/n");
     return 0;
 }
