@@ -3,10 +3,10 @@
 int main() {
     float a,b;
     printf("");
-    scanf("%f",&a);
+    scanf("%.2f",&a);
 
     printf("");
-    scanf("%f",&b);
+    scanf("%.2f",&b);
 
     float product = a * b
     printf("Product: %.2f\n",product);
