@@ -1,18 +1,18 @@
 // Your code here...
 #include<stdio.h>
 #int main(){
-    int a,b,c;
+    float a,b,c;
     printf("");
-    scanf("%d,&a");
+    scanf("%f,&a");
 
     printf("");
-    scanf("%d,&a");
+    scanf("%f,&a");
 
     printf("")
-    scanf("%d,&a");
+    scanf("%f,&a");
 
     int Average = ("a+b+c")/3;
-    printf("Average: %.2d\n",&Average);
+    printf("Average: %.2f\n",&Average);
 
     return 0;
 
