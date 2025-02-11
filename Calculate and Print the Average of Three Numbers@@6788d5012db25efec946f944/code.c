@@ -11,7 +11,7 @@
     printf("")
     scanf("%d,&a");
 
-    Average = ("a+b+c")/3;
+    int Average = ("a+b+c")/3;
     printf("Average: %.2d\n",&Average);
 
     return 0;
