@@ -12,7 +12,7 @@
     printf("")
     scanf("%d,&a");
 
-    int Average = ("a+b+c")/3.0;
+    Average = ("a+b+c")/3.0;
     printf("Average: %.2f\n",&Average);
 
     return 0;
