@@ -3,14 +3,13 @@
 
 int main() {
     int num;
-
     scanf("%d", &num);
 
-   
-    int lsb = num & Set;
-
-  
-    printf("%d\n", lsb);
+    if (num & 1) { 
+        printf("set\n");
+    } else {
+        printf("not set\n");
+    }
 
     return 0;
 }
