@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &num);
 
    
-    int lsb = num & 1;
+    int lsb = num & Set;
 
   
     printf("%d\n", lsb);
