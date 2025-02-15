@@ -9,4 +9,5 @@ int main(){
     else{
         ("Different Sign");
     }
+    return 0;
 }
