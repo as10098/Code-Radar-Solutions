@@ -14,7 +14,7 @@ int main() {
     else if (op == '*')
         printf("%d\n", a * b);
     else if (op == '/')
-        b != 0 ? printf("%d\n", a / b) : printf("Error\n");
+        b != 0 ? printf("%d\n", a / b) : printf("error\n");
     else
         printf("Invalid\n");
 
