@@ -1,9 +1,9 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int num1,num2;
+    int a,b;
     printf("");
-    scanf("%d %d",&num1,&num2);
-    printf("%d\n", num1 ^ num2);
+    scanf("%d %d",&a,&b);
+    printf("%d\n", a ^ b);
     return 0;
 }
