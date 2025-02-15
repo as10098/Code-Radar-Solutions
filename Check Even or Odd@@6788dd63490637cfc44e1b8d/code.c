@@ -2,12 +2,13 @@
 #include <stdio.h>
 int main(void){
     int a;
+    scanf("%d",&a);
     if(a%2==0){
-        printf("Even");
+        printf("Even\n");
         }
-        else{
-            printf("False");
+    else{
+        printf("False\n");
         }
-        return 0;
+    return 0;
 
 }
