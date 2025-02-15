@@ -2,19 +2,19 @@
 #include <stdio.h>
 
 int main() {
-    double a, b;
+    int a, b;
     char op;
     
-    scanf(" %c %lf %lf", &op, &a, &b);
+    scanf("%d %d %c", &a, &b, &op);
 
     if (op == '+')
-        printf("%.2lf\n", a + b);
+        printf("%d\n", a + b);
     else if (op == '-')
-        printf("%.2lf\n", a - b);
+        printf("%d\n", a - b);
     else if (op == '*')
-        printf("%.2lf\n", a * b);
+        printf("%d\n", a * b);
     else if (op == '/')
-        b != 0 ? printf("%.2lf\n", a / b) : printf("Error\n");
+        b != 0 ? printf("%d\n", a / b) : printf("Error\n");
     else
         printf("Invalid\n");
 
