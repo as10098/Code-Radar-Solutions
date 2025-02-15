@@ -10,7 +10,7 @@ int main(){
     if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
         printf("Vowel");
     }
-    if(ch >='1' && ch <= '100'){
+    if(ch >='0' && ch <= '9'){
         printf("Digit");
     }
     return 0;
