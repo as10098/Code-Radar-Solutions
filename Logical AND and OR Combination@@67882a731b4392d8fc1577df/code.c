@@ -2,14 +2,17 @@
 #include <stdio.h>
 
 int main(){
-    int a,b;
+    int num1, num2;
 
-    scanf("%d %d",&a,&b);
-    if((a>0&b<0)||(a&b==0)){
+    
+    scanf("%d %d", &num1, &num2);
+
+    
+    if ((num1 > 0 && num2 < 0) || (num1 == 0 && num2 == 0)) {
         printf("True\n");
-    }
-    else{
+    } else {
         printf("False\n");
     }
+
     return 0;
 }
