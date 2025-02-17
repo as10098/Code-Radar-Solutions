@@ -1,10 +1,11 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
+    
+    int num1,num2;
 
-    if((a==-a && b==b)|| (a==a && b==-b)){
+    scanf("%d %d",&num1,&num2);
+    if((num1 == -num1 && num2 == num2) || (num1== num1 && num2 ==-num2)){
         printf("True\n");
     }
     else{
