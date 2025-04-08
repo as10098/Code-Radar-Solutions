@@ -1,2 +1,7 @@
 // Your code here...
-printf("a");
+#include <stdio.h>
+int main(){
+    int n;
+    printf("");
+
+}
